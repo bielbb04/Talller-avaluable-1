@@ -1,0 +1,78 @@
+---
+title: "Taller evaluado I"
+date: "2025-10-15"
+format:
+  html:
+    toc: true
+    toc-depth: 4
+lang: es
+---
+
+**Nombre y apellido de cada miembro del grupo**
+
+-   Miguel Martorell Lopez
+-   Joan Franquesa Trepat
+-   Biel Barceló Borràs
+
+::: {.callout-important title="Artículo a revisar"}
+**PLOS ONE (3 de septiembre de 2025)** — *Smartphone use on the toilet and the risk of hemorrhoids*\
+[Enlace al artículo](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0329983) — DOI: 10.1371/journal.pone.0329983\
+**Datos abiertos:** Harvard Dataverse (DOI: 10.7910/DVN/HUXLUM)
+:::
+
+<!-- Citas de contexto: artículo, fecha de publicación y dataset abierto. -->
+
+#### 1. ¿Cuál es la pregunta de investigación o hipótesis principal? (1 punto)
+
+Ver si hay una correlación entre el uso del móvil en el vater y la aprición de hemorroides.
+
+#### 2. Definid: población objetivo, población muestreada, unidad de observación, muestra y tipo de muestreo (2 puntos)
+
+Población objetivo: todo el mundo que va al baño.
+
+Población muestreada: Pacientes adultos que se sometieron a una colonoscopia en el centro médico Beth Israel Deaconess entrel el 01/08/2024 y 15/12/2024.
+
+Unidad de observación: Pacientes
+
+Muestra: Los pacientes que dieron el consentimiento. 42 personas que no usan el movil y 83 que si lo usan.
+
+Tipo de muestreo: No aleatorio oportunista.
+
+#### 3. Identificad el tipo de estudio, justificad vuestra respuesta (1.5 puntos)
+
+Es un estudio analítico observacional transversal, pues se toman las muestas simultaneamente tanto a los expuestos como no expuestos como a los enfermos y no enfermos, y posteriormente se analizan los resultados tomados.
+
+#### 4. Indicad al menos tres posibles sesgos y/o factores de confunción que podrían afectar los resultados del estudio (2 puntos)
+
+Sesgo de no respuesta: Dado que la inclusión en la muestra es voluntaria.
+
+Sesgo de conveniencia: Ya que solo toman datos de un solo centro hospitalario.
+
+Efecto confundidor: La media de edad de los usuarios que usan el movil es menor a la media de edade de los que no lo usan, por lo que los últimos tienen mas probabilidad a padecer hemorroides.
+
+Efecto confundidor: Las personas que usan el movil en el baño tienden a hacer menos ejercicio que las personas que no lo hacen.
+
+#### 5. Con base en la Tabla 1 del artículo, interpretad en el contexto del problema las características que resultaron estadísticamente significativas (1.5 puntos)
+
+Todas esas en las que se ha obtenido un p-valor inferior a 0.05 podemos considerar que han sido estadísticamente significativas. Como pueden ser la freqüencia de pasar mas tiempo en el baño, la actividad física, leer otros tipos de productos en el baño o simplemente no leer en el baño.
+
+#### 6. Con base en la Figura 5, discutid si el gráfico empleado es correcto y proponed, en su caso, mejoras que faciliten la interpretación (1 punto)
+
+En primer lugar, no usaría el porcentaje, sino que el eje Y seria para el valor absoluto de los usuarios así podemos ver realmente la cantidad de uso de cada uso.
+
+Además, podríamos ordenar las actividades de mayor a menor.
+
+#### 7. Explica, de forma breve y basada en esta evidencia, si recomendarías evitar o limitar el uso del smartphone en el inodoro a tus amigos (jóvenes menores de 25 años), indicando por qué, cómo (1 punto)
+
+Teniendo en cuenta el articulo evitaria dar recomendaciones a mis amigos respecto el uso del movil en el baño ya que el estudio esta focalizado en personas con mayor edad, aparte de que tampoco saca evidencias significativas respecto a su uso en el movil. Si que aconsejaria practicar deporte y tener una buena posicion y soporte para el baño ya que si existen estudios que lo recomiendan.
+
+<br>
+
+**Instrucciones para entregar:** Un miembro del grupo deberá subir a la tarea de Aula Digital un único archivo PDF que incluya:\
+1) los nombres de todos los integrantes, y\
+2) un enlace al repositorio de GitHub (de cualquiera de los integrantes).
+
+El repositorio deberá contener, como mínimo:\
+- el archivo fuente `.qmd`,\
+- la salida `.html`, y\
+- un `README.md` que describa con claridad el propósito del proyecto y su estructura.
